@@ -20,4 +20,5 @@ management:
     endpoints:
         web:
             exposure:
-                exclude: "*"
+                include: "*"
+            base-path: "/details"
