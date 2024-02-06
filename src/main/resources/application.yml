@@ -12,3 +12,12 @@ spring:
 
     profiles:
         active: test
+db:
+    email: abdulmusavveeralji@gmail.com
+    password: "@gmail.com"
+
+management:
+    endpoints:
+        web:
+            exposure:
+                exclude: "*"
